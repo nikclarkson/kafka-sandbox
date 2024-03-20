@@ -2,9 +2,13 @@
 ## simple-cluster.yml
 Creates a 3 broker kafka cluster with Schema Registry & Kafka-UI
 
-run
+creates the docker network the cluster will use
 ```
-docker network create my-network 
+docker network create my-network
+```
+
+stands up the cluster
+```
 docker-compose up -d
 ```
 
